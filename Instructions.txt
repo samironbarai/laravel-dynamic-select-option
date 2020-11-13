@@ -1,0 +1,22 @@
+1. Create laravel new project
+2. Create category Model with migration and controller
+3. Create post model with migrationc and controller 
+4. Add scheema to migration files
+5. Create category_post migration (pivot table)
+6. Run migrate
+7. Create post routes
+8. Create view files to show posts
+9. We will use bootstrap starter template
+10. Create view file to create new post with category
+11. Now create some dummy categories with seeder
+12. Run db:seed
+13. Add jquery select2 plugin
+
+14. Here we see primary key for existing category and Text for new category
+15. So we need to save new category first and then take those newly created category's id 
+16. As we are inserting data into 2 tables, so its good practice to use DB transaction
+
+17. Now we need to create relationship between category and post
+
+
+
